@@ -5809,10 +5809,25 @@ button.close {
   .hidden-print {
     display: none !important; } }
 body {
-  background-image: url(../images/skateboard-images/bg.jpg); }
+  background-image: url(../images/skateboard-images/bg.jpg);
+  display: inline-block;
+  box-sizing: border-box; }
 
 .body {
-  width: 1025px; }
+  width: 1025px;
+  height: 2000px; }
+
+.subscribe {
+  display: inline-block;
+  margin-right: 100px; }
+
+.ellipsis {
+  display: inline-block;
+  vertical-align: middle; }
+
+.social-media {
+  float: right;
+  clear: right; }
 
 .btn-facebook {
   color: #7585B0; }
@@ -5825,5 +5840,20 @@ body {
 
 .btn-youtube {
   color: #B03931; }
+
+.header-photos {
+  width: 1025px;
+  height: 350px;
+  background-image: url(../images/skateboard-images/top-image.png);
+  background-position: 25% 25%;
+  margin-top: 150px;
+  border: 8px solid white; }
+
+.header {
+  display: inline-block;
+  margin-top: 60px; }
+
+.carousel {
+  margin-top: 75px; }
 
 /*# sourceMappingURL=styles.css.map */
