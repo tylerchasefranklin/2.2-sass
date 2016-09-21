@@ -5808,26 +5808,29 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
-body {
-  background-image: url(../images/skateboard-images/bg.jpg);
-  display: inline-block;
+* {
   box-sizing: border-box; }
 
+body {
+  background-image: url(../images/skateboard-images/bg.jpg); }
+
 .body {
-  width: 1025px;
   height: 2000px; }
 
 .subscribe {
-  display: inline-block;
-  margin-right: 100px; }
-
-.ellipsis {
-  display: inline-block;
+  margin-top: 15px;
+  color: white;
+  font-size: 14px;
   vertical-align: middle; }
 
-.social-media {
-  float: right;
-  clear: right; }
+.ellipsis {
+  vertical-align: middle;
+  color: white; }
+
+.icons {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
 
 .btn-facebook {
   color: #7585B0; }
@@ -5842,18 +5845,40 @@ body {
   color: #B03931; }
 
 .header-photos {
-  width: 1025px;
   height: 350px;
   background-image: url(../images/skateboard-images/top-image.png);
   background-position: 25% 25%;
-  margin-top: 150px;
-  border: 8px solid white; }
+  border: 8px solid white;
+  overflow: hidden;
+  position: relative;
+  margin-top: 15px; }
+
+.header-cover {
+  opacity: 0.35; }
 
 .header {
-  display: inline-block;
-  margin-top: 60px; }
+  position: absolute;
+  transform: translate(10%, 25%); }
 
 .carousel {
   margin-top: 75px; }
+
+.top-list {
+  list-style: none;
+  text-align: center;
+  margin: 0; }
+
+.top-list > li {
+  background-color: #B12B32;
+  color: white;
+  font-size: 17px;
+  padding: 5px;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  border-bottom: 5px solid rgba(0, 0, 0, 0.2);
+  border-radius: 40%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding;
+  background-clip: padding-box; }
 
 /*# sourceMappingURL=styles.css.map */
