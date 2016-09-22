@@ -1,0 +1,243 @@
+/* Bootstrap Variables */
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+
+/* Import Bootstrap */
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/skateboard-images/bg.jpg);
+}
+
+body:before {
+  content:"";
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+.body {
+  display:block;
+    margin:0 auto;
+
+}
+.subscribe {
+  margin-top: 15px;
+  color: white;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+
+.subscribe {
+}
+
+.ellipsis {
+  vertical-align: middle;
+  color: white;
+}
+
+.icons {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.btn-facebook {
+  color: #7585B0;
+}
+
+.btn-rss {
+  color: #CB8F3C;
+}
+
+.btn-twitter {
+  color: #6B8EC5;
+}
+
+.btn-youtube {
+  color: #B03931;
+
+}
+
+.header-photos {
+  height: 350px;
+  background-image: url(../images/skateboard-images/top-image.png);
+  background-position: 25% 25%;
+  border: 8px solid white;
+  overflow: hidden;
+  position: relative;
+  margin-top: 15px;
+}
+
+.header-cover {
+  opacity: 0.35;
+}
+
+
+.header {
+  position: absolute;
+  transform: translate(10%, 25%);
+
+}
+
+.carousel {
+  margin-top: 75px;
+}
+
+
+.top-list {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+
+}
+
+.top-list > li {
+  background-color: #B12B32;
+  color: white;
+  font-size: 17px;
+  padding: 5px;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  border-bottom: 5px solid rgba(0, 0, 0, 0.2);
+  border-radius: 40%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding;
+  background-clip: padding-box;
+}
+
+.articles {
+  background-color: white;
+  padding-right: 10px;
+  padding-left: 10px;
+  position: relative;
+}
+
+.article {
+  height: 400px;
+  text-align: left;
+  padding: 10px;
+  position: relative;
+}
+
+.read {
+  display: block;
+  color: red;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+h2 {
+  color: white;
+  font-size: 55px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  vertical-align: middle;
+
+
+}
+
+.skateboarders {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.lance {
+  display: inline-block;
+  background-image: url(../images/skateboard-images/sk8er-4.png);
+  height: 220px;
+  border: 4px solid white;
+  background-position: center right;
+
+}
+
+.rodney {
+  display:inline-block;
+  background-image: url(../images/skateboard-images/sk8er-3.png);
+  height: 220px;
+  border: 4px solid white;
+
+}
+
+.tommy {
+  display: inline-block;
+  background-image: url(../images/skateboard-images/sk8er-2.png);
+  height: 462px;
+  border: 4px solid white;
+  background-position: 78% 25%;
+
+}
+
+.steve {
+  display: inline-block;
+  background-image: url(../images/skateboard-images/sk8er-1.png);
+  height: 220px;
+  border: 4px solid white;
+  background-repeat: no-repeat;
+  background-position: 100% 65%;
+  transform: translateY(-100%);
+  width: 100%;
+  background-size: cover;
+}
+
+.skateboards {
+  background-color: white;
+  transform: translateY(-75%);
+  margin-right: -15px;
+  margin-left: -15px;
+
+}
+
+.skate {
+  width: 120px;
+  text-align: center;
+
+}
+
+//  I ran out of time but wanted to at least
+// all of the information into the page.  I took this code from
+// http://tangledindesign.com/how-to-create-a-contact-form-using-html5-css3-and-php/
+// and modified it some
+
+
+form {
+    margin-left: 60%;
+    width:459px;
+    text-align: right;
+    vertical-align: text-top;
+  }
+
+  input, textarea {
+      width:439px;
+      height:27px;
+      background:#efefef;
+      border:1px solid #dedede;
+      padding:10px;
+      margin-top:3px;
+      font-size:0.9em;
+      color:#3a3a3a;
+      -moz-border-radius:5px;
+      -webkit-border-radius:5px;
+      border-radius:5px;
+  }
+
+textarea {
+	height:213px;
+}
+
+.submit {
+    width:127px;
+    height:38px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+}
