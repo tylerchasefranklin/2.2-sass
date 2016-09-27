@@ -208,36 +208,54 @@ h2 {
 // http://tangledindesign.com/how-to-create-a-contact-form-using-html5-css3-and-php/
 // and modified it some
 
+.form {
+  width: 650px;
+  margin-left: 650px;
+  margin-top: -351px;
+}
+
+.heading {
+  font-size: 30px;
+}
+
+.contact {
+  width: 650px;
+  background:#efefef;
+  font-size:0.9em;
+  color:#3a3a3a;
+  height: 350px;
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  line-height: 2;
+}
+
+.wording {
+  font-size: 15px;
+}
 
 form {
-    margin-left: 60%;
-    width:459px;
-    text-align: right;
-    vertical-align: text-top;
+  display: inline-block;
+  margin-top: -185px;
   }
 
-  input, textarea {
-      width:439px;
-      height:27px;
-      background:#efefef;
-      border:1px solid #dedede;
-      padding:10px;
-      margin-top:3px;
-      font-size:0.9em;
-      color:#3a3a3a;
-      -moz-border-radius:5px;
-      -webkit-border-radius:5px;
-      border-radius:5px;
+input {
+  background:#efefef;
+  font-size:0.9em;
+  color:#3a3a3a;
+  width: 500px;
+  height: 40px;
   }
 
-textarea {
-	height:213px;
+.message {
+  height: 233px;
 }
 
 .submit {
-    width:127px;
-    height:38px;
-    border:none;
-    margin-top:20px;
-    cursor:pointer;
+  background-color: red;
+}
+
+.bottom-icons {
+  margin-left: -55px;
 }
